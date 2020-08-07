@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link rel="stylesheet" href="trabalho-e-economia.css"/>
+            <title>Trabalho e Economia</title>
+        </head>
+
+            <body>
+            <!--Cabeçalho-->    
+                <header>
+                    <div id="logo">
+                        <img src="Imagens/LogoONU.svg" alt="Logo da Onu."/>
+                    </div>
+                        <ul class="menucabecalho">
+                            <li>
+                                <a href="#colunaprojeto" class="initial botoescabecalho">Projeto</a>
+                            </li>
+                            <li>
+                                <a href="PaginaTrabalho" class="initial botoescabecalho">Trabalhador</a>
+                            </li>
+                            <li>
+                                <a href="PaginaEmpreendedor" class="initial botoescabecalho">Empreendedor</a>
+                            </li>
+                            <li>
+                                <a href="PaginaGoverno" class="initial botoescabecalho">Governo</a>
+                            </li>
+                            <li>
+                                <a href="PaginaEconomia" class="initial botoescabecalho">Economia</a>
+                            </li>
+                        </ul>
+                    
+                </header>
+            <!--Capa do Site-->
+                    <div id="capa">
+                        <h1 class="titulo">Projeto: Trabalho e Economia</h1>
+                        <h2 class="subtitulo">Saiba como funciona e como utilizar a economia de seu país ao seu favor</h2>
+                    </div>
+            <!--Projeto-->
+                <section id="colunaprojeto" class="fundocolunas">
+                    <div class="coluna dupla">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/AGV3rW83UKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="coluna dupla">
+                        <h3>O Projeto</h3>
+                                <p class="justificado">O Projeto: Trabalho e Economia é uma ideia baseada na <a id="siteods" href="https://nacoesunidas.org/pos2015/agenda2030/" target="blank">ODS</a> de numero 8, na qual baseia-se em incentivar o trabalho decente e crescimento econômico. Para atingir estes objetivos, este site foi criado com o intuito de informar o máximo de pessoas possíveis sobre como funciona a economia e auxiliar-los de maneira simples e rápida.
+                                    <br/>
+                                    Sobre a ODS de número 8, ela busca atingir níveis mais elevados de produtividade das economias por meio da diversificação, modernização tecnológica e inovação, para atingir estes objetivos a ONU busca promover políticas orientadas ao desenvolvimento econômico, seja para geração de emprego ou até incentivar  a inovação.
+                                    <br/>
+                                    O vídeo ao lado conta de maneira bem rápida como tudo isso funciona em menos de 4 minutos.
+                                </p>
+                    </div>
+                </section>
+            <!--Menu Principal-->
+                <section class="fundocolunas">
+                    <div class="coluna quadrupla">
+                        <div class="icone">
+                            <img src="Imagens/Maleta.svg" alt="Ícone de uma maleta." class="icone"/>
+                        </div>
+                            <h4>Assalariado</h4>
+                                <p class="centralizar">A base de toda a economia.
+                                    <br/>
+                                Como assalariado suas preocupações profissionais se resumem ao seu desempenho no trabalho, mas você está atualizado sobre fora da sua zona profissional? Busque entender melhor seus <a href="PaginaTrabalho" class="sublinhado">direitos</a> e como eles funcionam.
+                            </p>
+                    </div>
+                    <div class="coluna quadrupla">
+                        <div class="icone">
+                            <img src="Imagens/Empregado.svg" alt= "Ícone de um empregado." class="icone"/>
+                        </div>
+                            <h4>Empreendedor</h4>
+                            <p class="centralizar">Aqueles que se aventuram no caos organizado do livre mercado.
+                                <br/>
+                            Como empreendedor você sempre está com a cabeça cheia de variaveis infinitas, sendo assim para facilitar busque por aqui entender sobre as <a href="PaginaEmpreendendor" class="sublinhado">regulamentações</a> que tanto deve lhe preocupar.
+                            </p>
+                    </div>
+                    <div class="coluna quadrupla">
+                        <div class="icone">
+                            <img src="Imagens/ConstruçãoGoverno.svg" alt="Ícone de uma sede governamental." class="icone"/>
+                        </div>
+                            <h4>Governo</h4>
+                            <p class="centralizar">A instituição suprema.
+                                    <br/>
+                                Não importa se você é assalariado, empresário, rico, pobre, nacional ou estrangeiro, essa instituição está sempre olhando pra você. Entenda sobre as tão odiadas taxas <a href="PaginaGoverno" class="sublinhado">tributárias</a> e o <a href="PaginaGoverno" class="italico">Modus Operandi</a> dessa instituição que todos tanto desconfiam.
+                            </p>
+                    </div>
+                    <div class="coluna quadrupla">
+                        <div class="icone">
+                            <img src="Imagens/GloboDinheiro.svg" alt="Ícone de um globo e uma moeda." class="icone"/>
+                        </div>
+                            <h4>Economia</h4>
+                            O tão amado capitalismo que nos proporciona coisas tão belas.
+                                <br/>
+                                É de suma importância entendê-lo, mas como compreender algo tão complexo que engloba o mundo inteiro sem regras pré-definidas? <a href="PaginaEconomia" class="sublinhado">Por aqui</a> você entende como a roda do capitalismo gira.
+                    </div>
+                </section>
+            <!--Seção Notícias-->
+                <section class="fundocolunas">
+                    <h4 class="sublinhado">Notícias</h4>
+                    <div class="coluna tripla">
+                        <img src="Imagens/Eletricista.png" alt="Imagem de um eletricista" class="colunaimg">
+                        <h4>Desemprego sobe novamente</h4>
+                        <p>O IBGE anunciou dia 30/06 que o desemprego subiu para 12,9%, uma situação triste ainda mais se levar em conta que o país tem uma quantidade enorme de pessoas, devido ao COVID as empresas continuam tendo prejuizo tendo que tomar decisões difíceis como demitir funcionários, o senso comum ao falar de empresas é pensar em grandes marcas como Coca-Cola, Havan,..., mas vale lembrar que a Padaria do seu Chico também é uma empresa, essas pessoas tem conta para pagar. Sendo assim, o futuro desse país que é abençoado por Deus e amaldioçado pelos políticos parece nublado, como sempre.<a href="PáginaNotícia" class="Sublinhado">Mais detalhes.</a> </p>
+                    </div>
+                    <div class="coluna tripla">
+                        <img src="Imagens/PalácioPlanalto.jpg" alt="Imagem do Palácio do Planalto, Brasilia" class="colunaimg"/>
+                            <h4>Governo anuncia nova cédula de 200 reais</h4>
+                            <p>O Banco Central anunciou que aproximadamente no final de agosto essa nova cédula entrará em circulação, devido ao COVID-19 e o pagamento do auxilio emergencial o governo se vê na necessidade de criar tal nota para ficar irônicamente mais barato produzir dinheiro. <a href="PáginaNotícia" class="Sublinhado">Mais detalhes.</a></p>
+                    </div>
+                    <div class="coluna tripla">
+                        <img src="Imagens/Cédulas.jpg" alt="Imagem de várias cédulas" class="colunaimg"/>
+                        <h4>Sinal de Inflação?</h4>
+                        <p>Agora com o surgimento da nota de 200 reais, a preocupação sobre a volta da inflação surgiu, segundo o secretário do tesouro Bruno Funchal, "Sobre causar inflação, eu acho muito difícil, porque estamos com uma inflação extremamente baixa, uma queda de PIB significativa. Dificilmente, a gente terá uma demanda que cause pressões inflacionárias...", o que de fato causa inflação não é em si notas maiores, e sim a impressão delas, mas para que criar uma nota com o valor 100x maior se não for para imprimi-la?! O cime organizado e os políticos agradecem visto que terão volumes menores em suas transações.<a href="PáginaNotícia" class="Sublinhado">Mais detalhes.</a></p>
+                    </div>
+                </section>
+            <!--Seção Autor-->
+                <section class="fundocolunas">
+                    <div class="coluna dupla">
+                        <h4 class="sublinhado">Sobre Mim</h4>
+                        <p class="centralizar">Juan Correa</p>
+                        <p class="justificado">Olá, me chamo Juan como informado acima. Tenho 17 anos e possuo apenas um curso de Desing de jogos, algo sem conexão nenhuma com meu site eu sei. Apesar disso sou alguém que se interessa bastante por economia e assuntos relacionados, sendo assim escolhi tratar dessa ODS justamente para informar as pessoas que se interessam, para assim eu poder trazer informações de maneira simples e acessivel.</p>
+                            <br/>
+                        <p class="justificado">Email para contato: xxxxxx@gmail.com</p>
+                    </div>
+                    <div class="coluna dupla">
+                        <img src="Imagens/Juan.jpg" alt="Imagem de uma pessoa" class="circular retrato"/>
+                    </div>
+                </section>
+            <!--Rodapé-->
+                <footer>
+                    <div class="coluna dupla">
+                        <h4>Meu primeiro site</h4>
+                        <p>Projeto desenvolvido durante o curso Meu primeiro site, promovido pela Junior Achievement Brasil e Microsoft.</p>
+                    </div>
+                    <div class="coluna dupla">
+                        <h4>Créditos</h4>
+                        <p>Imagens retirados de Pixabay e ícones de Flaticon.</p>
+                    </div>
+                </footer>
+            </body>
+    </html>
