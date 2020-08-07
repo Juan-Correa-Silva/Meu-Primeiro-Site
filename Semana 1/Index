@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trabalho e Economia</title>
+        <link rel="stylesheet" href="estilo.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+    </head>
+
+    <body>
+        <!--Cabeçalho-->
+        <header>
+            <div id="logoONU">
+               <img src="Imagens/LogoONU.png" alt="logo">
+                Projeto: Conscientização do Trabalho
+            
+
+              <ul class="cabeçario">
+                  <li>
+                    <a>Trabalhador</a>
+                  </li>
+                  <li>
+                    <a>Empreendedor</a>
+                  </li>
+                  <li>
+                    <a>Governo</a>
+                  </li>
+                  <li>
+                    <a>Sobre</a>
+                  </li>
+              </ul>
+             </div>
+        </header>
+
+        <div id="imagem_fundo">
+            <h1 id="titulo">Trabalho e Economia</h1>
+
+            <h2 id="subtitulo">
+                Saiba como funciona a economia do seu país para utiliza-la ao seu favor.</h2>
+         </div>
+            <!--Coluna de Trabalho-->
+        <section id="menutrabalho" class="fundotrabalho">
+            
+            <div class="colunatrabalho">
+                  <h1 class="centralizar">Trabalho</h1>
+                    <hr>
+                  <p>Visando facilitar o acesso a informação sobre os direitos trabalhistas, esta pagina visa informar ao máximo de maneira simples e didática a todos que se interessarem.</p>
+                  <a id="direitostrabalhistas" href="https://raquelbqueiroz.jusbrasil.com.br/artigos/476022278/conheca-os-20-direitos-de-todos-os-trabalhadores" target="blank">Direitos Trabalhistas</a>
+                </div>
+        </section>
+
+    </body>
+</html>
