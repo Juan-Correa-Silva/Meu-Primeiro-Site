@@ -1,0 +1,99 @@
+    html, body{
+    margin: 0;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    header {
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: rgb(214, 173, 84);
+        z-index: 2;
+    }
+
+    header .cabeçario{
+        float: right;
+        list-style: none;
+        margin-top: 0px;
+        margin-right: 5%;
+    }
+
+    header .cabeçario li{
+        float: left;
+        font-size: 20px;
+        padding: 15px 10px 15px 10px;
+        color: black;
+    }
+
+    header .cabeçalho li a {
+    color: initial;
+    text-decoration: none;
+    color: black
+    }
+
+
+    #logoONU{
+    background-color: rgb(214, 173, 84);
+    max-height: 100%;
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    }
+
+    #imagem_fundo{
+    background: url(Imagens/Dinheiro.png);
+    height: 100%;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+    }
+
+    #titulo{
+    color: rgb(0,0,0);
+    padding-top: 20%;
+    font-size: 50px;
+    line-height: 0.6;    
+    }
+
+    #subtitulo{
+    color: rgb(0,0,0);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+    }
+
+    section{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 30px 0 20px 0;
+    }
+
+    .fundotrabalho{
+        background-color: rgb(255,248,220);
+    }
+
+    .colunatrabalho{
+        float: left;
+        width: 60%
+
+    }
+
+    .titulotrabalho{
+        float: left;
+        width: 40%;
+        padding: 1%;
+    }
+
+    .centralizar{
+        text-align: center;
+
+    }
+
+    #direitostrabalhistas{
+        color: rgb(39, 114, 161);
+        padding: 10px 20px 10px 20px;
+        text-decoration: initial;
+    }
