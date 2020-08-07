@@ -1,0 +1,192 @@
+html, body{ /*CP*/
+    margin: 0px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Cabeçalho CP*/
+header{ /*CP*/
+    width: 100%;
+    height: 10%;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(132, 172, 252);
+}
+
+li:hover{  /*CP*/
+    background-color: rgb(118, 154, 227);
+}
+/*CP*/
+.menucabecalho{
+    float: right;
+    list-style: none;
+    margin-top: 3px;
+    margin-right: 1%;
+}
+/*CP*/
+.menucabecalho li{
+    float: left;
+    font-size: 18px;
+    padding: 15px 10px 23px 10px;
+
+}
+/*CP*/
+.botoescabecalho{
+    padding: 15px 10px 23px 10px;
+}
+/*CP*/
+#logo{
+    width: 7%;
+    height: 7%;
+    position: absolute;
+}
+/*CP*/
+#logo img{
+    max-height: 57px;
+}
+
+/*Capa*/
+#capa{ /*CP*/
+    background: url(Imagens/BackgroundONU.jpg);
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    padding: 15%;
+}
+
+.titulo{ /*CPD*/
+    color: rgb(0,0,0);
+    font-size: 50px;
+    padding-top: 10%;
+    line-height: 50px;
+}
+
+.subtitulo{ /*CPD*/
+    color: rgb(0,0,0);
+    font-size: 23px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+section{ /*CP*/
+    width: 100%;
+    padding: 5% 0% 2% 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+/*Colunas*/
+.fundocolunas{/*CP*/
+    background-color: rgb(255,255,255);
+}
+
+.coluna{/*CP*/
+    float: left;
+    position: relative;
+    padding: 0% 5% 0% 5%;
+}
+
+.colunaimg{ /*CP*/
+    width: 100%;
+    height: 300px;
+}
+
+.dupla{/*CP*/
+    width: 40%;
+}
+
+.tripla{/*CP*/
+    width: 29%;
+    padding: 0% 2% 0% 2%;
+}
+
+.quadrupla{/*CP*/
+    width: 15%;
+    padding: 0% 5% 0% 5%;
+}
+
+/*Rodapé*/
+footer{
+background-color: rgb(132, 172, 252);
+    width: 100%;
+    overflow: hidden;
+    padding: 3% 0 3% 0;
+    color: rgb(73, 95, 140)
+}
+/*Textos*/
+.justificado{ /*CP*/
+    text-align: justify;
+}
+
+.centralizar{ /*CP*/
+    text-align: center;
+}
+
+.italico{ /*CP*/
+    font-style: italic;
+}
+
+.initial{ /*CP*/
+    text-decoration: initial;
+}
+
+.sublinhado{ /*CP*/
+    text-decoration: underline;
+}
+
+a{ /*CP*/
+    color: rgb(73, 95, 140);
+}
+
+h3{ /*CP*/
+    margin-top: 0%;
+}
+
+h4{ /*CP*/
+    font-size: 22px;
+    text-align: center;
+}
+
+/*Imagens*/
+.icone{ /*CP*/
+    max-width: 70px;
+    max-height: 70px;
+    text-align: center;
+    border-radius: 25%;
+    margin: 0% auto 0% auto;
+}
+
+.circular{ /*CPD*/
+    border-radius: 50%;
+}
+
+.retrato{ /*CP*/
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media all and (max-width: 768px) {
+    .menucabecalho{
+        visibility: hidden;
+    }
+
+    #capa, .coluna, .dupla, .tripla, .quadrupla{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logo{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    #capa{
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
